@@ -1,13 +1,14 @@
 @font-face {
     font-family: 'comical';
-    src: url(assets/font/comical.ttf)
+    src: url(assets/font/comical.otf)
     format('truetype');
+    font-weight: lighter;
 }
 
 * {
     font-family: 'comical',sans-serif;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .black {
