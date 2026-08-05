@@ -127,7 +127,7 @@ hr {
 .page {
     margin-left: 10px;
     border: 3px solid black;
-    padding: 0 10px;
+    padding: 3px 10px 0;
     width: 100px;
     border-radius: 7px;
     font-size: small;
@@ -310,10 +310,10 @@ td {
 }
 
 .kotakk{
-    border-radius: 20px;
-    border: 3px solid black;
-    margin: 10% auto;
-    width: min(90%, 700px);
+    width: 90%;
+    max-width: 700px;
+    border: transparent;
+    margin: 40px auto;
     padding: 30px;
 }
 
@@ -343,4 +343,8 @@ td {
         width:auto;
     }
 
+}
+
+html{
+    zoom: 80%;
 }
