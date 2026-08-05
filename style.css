@@ -78,13 +78,13 @@ header {
 .container {
     position: relative;
     border: 3px solid black;
-    width: 60%;
+    width: min(90%, 1200px);
+    min-width: 0;
     height: 70%;
     border-radius: 15px;
     padding: 15px;
     margin: 50px auto;
     padding-top: 20px;
-    min-width: 420px;
 }
 
 .browser-bar{
@@ -262,7 +262,9 @@ td {
 }
 
 .cg {
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
     margin: auto;
     z-index: -1;
     padding: 4px;
@@ -291,27 +293,18 @@ td {
     text-align: left;
 }
 
-html {
-    zoom: 75%;
-}
-
 .preview {
     width: 50%;
     max-width: 400px;
-}
-
-.girl{
-    width: 100%;
-    position: absolute;
-    max-width: 400px;
-    right: 10px;
+    height: auto;
 }
 
 .cg3d{
     position: absolute;
     opacity: 70%;
+    width: 35%;
     max-width:300px;
-    right: 40px;
+    right: 5%;
     top: 150px;
 }
 
@@ -319,6 +312,34 @@ html {
     border-radius: 20px;
     border: 3px solid black;
     margin: 10% auto;
-    width: 50%;
+    width: min(90%, 700px);
     padding: 30px;
+}
+
+@media (max-width:768px){
+
+    .container{
+        width:95%;
+        min-width:0;
+    }
+
+    .kotakk{
+        width:90%;
+    }
+
+    .kiri,
+    .kanan{
+        font-size:25px;
+        left:15px;
+        right:15px;
+    }
+
+    .cg3d{
+        display:none;
+    }
+
+    .page{
+        width:auto;
+    }
+
 }
