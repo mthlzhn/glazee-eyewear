@@ -327,14 +327,7 @@ td {
     .kotakk{
         width:90%;
     }
-
-    .kiri,
-    .kanan{
-        font-size:25px;
-        left:15px;
-        right:15px;
-    }
-
+    
     .cg3d{
         display:none;
     }
