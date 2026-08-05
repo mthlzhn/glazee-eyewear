@@ -1,0 +1,314 @@
+.black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #454545;
+}
+
+.merah {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.gold {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(assets/tortoishell.jpeg);
+}
+
+
+.black:focus~.preview {
+    background-color: #454545;
+}
+
+.merah:focus~.preview {
+    background-color: red;
+}
+
+.gold:focus~.preview {
+    background-image: url(assets/tortoishell.jpeg);
+    background-size: cover;
+}
+
+.product {
+    position: relative;
+    text-align: center;
+}
+
+.kiri {
+    position: absolute;
+    font-size: 40px;
+    left: 55px;
+    bottom: 55%;
+    color: black;
+}
+
+.kanan {
+    position: absolute;
+    font-size: 40px;
+    right: 55px;
+    bottom: 55%;
+    color: black;
+}
+
+* {
+    font-family: cursive;
+    text-decoration: none;
+}
+
+header {
+    justify-content: center;
+    margin: auto;
+    /* display: flex; */
+}
+
+.container {
+    position: relative;
+    border: 3px solid black;
+    width: 60%;
+    height: 70%;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 50px auto;
+    padding-top: 20px;
+    min-width: 420px;
+}
+
+.browser-bar{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.judul{
+    flex: 1;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 3px 0;
+    text-transform: uppercase;
+    font-size: small;
+    color: white;
+}
+
+.profile {
+    width: 25px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.profiler {
+    position: relative;
+    width: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    left: 10px;
+    top: 10px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.page {
+    margin-left: 10px;
+    border: 3px solid black;
+    padding: 0 10px;
+    width: 100px;
+    border-radius: 7px;
+    font-size: small;
+    color: black;
+}
+
+.page:focus,
+.judul:hover,
+.select {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+input, textarea{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+input[type="radio"], input[type="checkbox"]{
+    accent-color: black;
+}
+
+.qr{
+    max-width: 200px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 3px 10px;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: -2s;
+}
+
+input:hover, textarea:hover{
+    border: 3px solid black;
+}
+
+fieldset {
+    border: 5px double black;
+    height: auto;
+    min-height: 600px;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    color: black;
+    margin: 0 10px;
+}
+
+.part {
+    background-color: black;
+    min-height: 130px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plus {
+    padding: 10px 50px;
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people {
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: smaller;
+    margin: 0 10px;
+    width: 30%;
+    /* height: 120px; */
+    flex: 1 1 220px;
+}
+
+.star {
+    position: relative;
+    left: 15px;
+}
+
+.isi {
+    text-indent: 10px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 5px 25px;
+    line-height: 1;
+
+    small {
+        color: rgba(255, 255, 255, 0.712);
+    }
+}
+
+.icons {
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+.cg {
+    width: 380px;
+    margin: auto;
+    z-index: -1;
+    padding: 4px;
+}
+
+.name {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px;
+    margin-bottom: 40px;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+.name:hover {
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+html {
+    zoom: 75%;
+}
+
+.preview {
+    width: 50%;
+    max-width: 400px;
+}
+
+.girl{
+    width: 100%;
+    position: absolute;
+    max-width: 400px;
+    right: 10px;
+}
+
+.cg3d{
+    position: absolute;
+    opacity: 70%;
+    max-width:300px;
+    right: 40px;
+    top: 150px;
+}
+
+.kotakk{
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 10% auto;
+    width: 50%;
+    padding: 30px;
+}
